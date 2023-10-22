@@ -1,15 +1,17 @@
 # vue
 
-사용자 인터페이스를 만들기 위한 동적 javaScript 프레임워크
+사용자 인터페이스를 만들기 위한 동적 javaScript 프레임워크    
 
+<br/>
 
-## 특징
+## 1. 특징
   * MVVM 패턴을 사용
   * Virtual DOM의 사용
   * Angular, React에 비해 매우 작고 가벼우며 복잡도가 낮음
   * Template과 Componenet를 사용하여 재사용이 가능한 사용자 인터페이스를 묶고 View Layer를 정리하여 사용
+<br/>
 
-## MVVM 패턴
+## 2. MVVM 패턴
 ![image](https://github.com/yuuuuuuuuna/vue/assets/87286063/5721bf44-8747-4260-bc3d-bf6b78d65e6e)
    
    Mode - View - ViewModel의 줄임말으로 로직과 UI의 분리를 위해 설계된 패턴
@@ -18,7 +20,9 @@
    
    뷰모델이 없는 경우에는 직접 모델과 뷰를 연결, 뷰모델이 중간에서 연결해 주는 것이 MVVM 모델
 
-## vue life cycle
+<br/>
+
+## 3. vue life cycle
 ![333](https://github.com/yuuuuuuuuna/vue/assets/87286063/b5104b06-06eb-4477-8b27-86e757d83f6f)
 
 ### beforeCreate
@@ -39,7 +43,9 @@ DOM에 부착하기 직전에 호출, 가상 DOM이 생성되어 있으나 실�
 ### destroyed
 인스턴스가 해체되고 난 직후 호출
 
-## Template 문법
+<br/>
+
+## 4. Template 문법
 ### Interpolations
  * Double Mustaches
 ```
@@ -77,7 +83,9 @@ v- 접두사를 가진 특별한 속성으로, HTML 요소에 특별한 반응�
 <div v-show="isShow">Show or hide content</div>
 ```
 
-## Template Syntax
+<br/>
+
+## 5. Template Syntax
 ### method
 함수를 단순히 정의
 ### computed
@@ -145,7 +153,9 @@ computed : 내장 API 를 활용한 간단한 연산 정도가 적합
 
 watch : 데이터 호출 같이 시간이 상대적으로 더 많이 소모되는 비동기 처리에 적합
 
-## 컴포넌트 데이터 전달
+<br/>
+
+## 6. 컴포넌트 데이터 전달
 ### props, emit
 상위 -> 하위 props라는 속성을 전달
 ```
