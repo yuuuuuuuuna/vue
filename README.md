@@ -7,7 +7,6 @@
 ## 1. 특징
   * MVVM 패턴을 사용
   * Virtual DOM의 사용
-  * Angular, React에 비해 매우 작고 가벼우며 복잡도가 낮음
   * Template과 Componenet를 사용하여 재사용이 가능한 사용자 인터페이스를 묶고 View Layer를 정리하여 사용
 <br/>
 
